@@ -1,0 +1,129 @@
+header {
+  background-color: transparent;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+  align-items: flex-end;
+}
+
+nav a {
+  color: #a38103;
+  text-decoration: none;
+  padding: 5px;
+  align-items:right;
+  font-size: 20px;
+}
+
+nav a:hover {
+  background-color: #60605c;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  
+ /* background-image: url("https://res.cloudinary.com/dyrrmsdbj/image/upload/vbackgroun1689051190/CM_HUB_k3xksi.gif"); */
+  /* margin-right: auto; */
+  
+}
+
+.login {
+  float: right;
+  color: #333;
+}
+
+.signup {
+  float: right;
+  margin-right: 10px;
+  color: #333;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.dashboard {
+  margin-top: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.card {
+  min-width: 250px;
+  height: 500px;
+  width: 800px;
+  background-color: #0d0d0d;
+  margin-right: 20px;
+  border-radius: 8px;
+  scroll-snap-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin-top: 0%;
+  margin-left: 30%;
+  opacity: 0.7;
+  box-shadow: #0d0d0d;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.lo {
+ 
+  margin-right: auto;
+  position: absolute;
+    right: 2rem;
+    
+}
+.pp{
+  background-image: url("https://res.cloudinary.com/dyrrmsdbj/image/upload/v1689141245/Untitled_beuvwy.jpg");
+}
+h{
+    text-align: center;
+    font-size: 40px;
+    font-family: Papyrus;
+    color: #a38103;
+    left: 20px;
+}  
+img {
+  /* overflow-clip-margin: content-box; */
+  /* overflow: clip; */
+  border-radius: 90px;
+  width: 150px;
+
+}
+t{
+  color: #a38103;
+  font-family: Papyrus;
+  font-size: 30px;
+}

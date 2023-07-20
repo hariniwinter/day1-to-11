@@ -1,0 +1,91 @@
+/* Home.css */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .login {
+    float: right;
+  }
+  
+  .signup {
+    float: right;
+    margin-right: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .dashboard {
+    margin-top: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .card {
+    min-width: 250px;
+    height: 200px;
+    background-color: #f0f0f0;
+    margin-right: 10px;
+    border-radius: 8px;
+    scroll-snap-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .logo{
+    background-image: url("https://res.cloudinary.com/dyrrmsdbj/image/upload/v1689051190/CM_HUB_k3xksi.gif");
+    
+  }
+  
