@@ -1,0 +1,170 @@
+header {
+  background-color: rgba(16, 16, 16, 0.7);
+  color: #010101;
+  padding: 10px;
+  position: relative;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+.logout {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.section {
+  padding: 80px;
+  margin-top: auto;
+  background-image: url("");
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.cards-container1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 70%;
+  position: relative;
+  /* background-color: #333; */
+  border-radius: 20px;
+  margin-top: 3%;
+}
+
+.cardo {
+  flex: 0 0 calc(33.33% - 20px);
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  /* border-radius: 4px; */
+  background-image:url("  https://res.cloudinary.com/dyrrmsdbj/image/upload/v1689242812/Download_premium_vector_of_Mental_healthcare_poster_template_aesthetic_memphis_design_vector_by_Adjima_about_human_shape_human_human_vector_abstract_and_aesthetic_7044078_qa0ehj.jpg" );
+background-position: center;
+  background-size: 450px;
+  background-repeat: no-repeat;
+  height: 400px;
+  margin-left: 30px;
+  position: relative; 
+  opacity: 0.7;
+ border-radius: 20px;
+
+} 
+
+.card2 {
+  flex: 0 0 calc(33.33% - 20px);
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  /* border-radius: 4px; */
+  background-image:url(" https://res.cloudinary.com/dyrrmsdbj/image/upload/v1689242801/Good_Idea_roq4hj.jpg" );
+  /* height: 100vh; */
+  background-size: 350px;
+  background-repeat: no-repeat;
+  height: 400px;
+  margin-left: 30px;
+  position: relative; 
+  opacity: 0.7;
+  border-radius: 20px;
+
+} 
+
+.card3 {
+  flex: 0 0 calc(33.33% - 20px);
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  /* border-radius: 4px; */
+  background-image:url("  https://res.cloudinary.com/dyrrmsdbj/image/upload/v1689242790/edu_dcmvhj.jpg" );
+  /* height: 100vh; */
+  background-size: 450px;
+  background-repeat: no-repeat;
+  height: 400px;
+  margin-left: 30px;
+  position: relative; 
+  opacity: 0.7;
+  border-radius: 20px;
+
+}
+
+.backg {
+  background-image: url("https://res.cloudinary.com/dyrrmsdbj/image/upload/v1689228206/The_Antelucan_Hourglass_ckb6c8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Tab CSS */
+.tabs-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.tab {
+  padding: 10px;
+  margin: 0 10px;
+  cursor: pointer;
+  background-color: #faf4f4;
+  border-radius: 4px;
+}
+
+.tab--selected {
+  background-color: #333;
+  color: #fff;
+}
+
+.panel {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.ksxpkL {
+  padding-left: 0;
+  position: relative;
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.42, 0, 0.58, 1);
+  -webkit-transition: transform 0.3s cubic-bezier(0.42, 0, 0.58, 1);
+  transition: transform 0.3s cubic-bezier(0.42, 0, 0.58, 1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(0, 190, 66, 0.525);
+  opacity: 0.6;
+}
+.panel-content{
+  height: 250px;
+
+}
