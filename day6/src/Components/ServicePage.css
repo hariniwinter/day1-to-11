@@ -1,0 +1,75 @@
+.service-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: rgb(16 16 16 );
+    color: #010101;
+    padding: 10px;
+    position: relative;
+}
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section.service-section {
+    padding: 20px;
+    background-image: url(https://res.cloudinary.com/dyrrmsdbj/image/upload/v1689311842/service-modified_zs1yte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ccc;
+  }
+  
+  
+   .service-card2 {
+    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+    opacity: 0.5;
+    color: #fafaf6;
+    height: 650px;
+  }
+  .service-card3 {
+    background-color: #090909;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+    opacity: 0.2;
+    color: #f9f9f9;
+  } */
+  
+  .service-card h3 {
+    margin-top: 0;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  

@@ -1,0 +1,26 @@
+.bg1
+{
+    
+    width: 25em;
+    height: 25em;
+   
+    box-shadow: 0 0.188em 1.550em rgb(100,156,156);
+    margin-left: 35%;
+    margin-top: 5%;
+    color:black;
+    background-color: #fefdfb;
+ 
+}
+.bg{
+    background-image: url("https://cdn.pixabay.com/photo/2017/03/16/20/44/galaxy-2150186_1280.png");
+    height:48em;
+}
+.contact{
+    background-color: rgb(62, 67, 67);   
+}
+.contact2
+{
+    background-color: rgb(175, 214, 214);
+    height: 5em;
+    margin-top: -1.5em;
+}
